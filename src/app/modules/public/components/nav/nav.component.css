@@ -1,0 +1,30 @@
+.category{
+    background-color:var(--primary);
+    width: 100px;
+    height:100px;
+    color: white;
+    
+    margin:50px;
+    padding: 8px 16px;
+}
+.head{
+    width:100%;
+    display: flex;
+    align-items: baseline;
+    justify-content:start;
+    gap:5px;
+}
+.smallblock{
+    width:30px;
+    height:30px;
+    background-color: red;
+    padding:1px;
+    margin: 5px;
+    
+}
+.line{
+    width:80%;
+    height:6px;
+    background-color: red;
+    margin-right: 20px;
+}

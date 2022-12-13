@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --primary:#e0e0e0;
+    --light:#ffffff;
+    --dark:#bebebe;
+}
+*{
+    margin:0;
+    padding: 0;
+    background-color:var(--primary);
+    font-family:sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+.morph{
+    box-shadow: 2px 2px 2px var(--dark),
+     -2px -2px 2px var(--light);
+     color:white;
+}
+.button{
+    padding: 8px 16px;
+    background: none;
+    color:white;
+}
+.button1{
+    padding: 8px 16px;
+    background: none;
+    color:white;
+    style:none;
+    border: none;
+    background:red;
+    border-radius: 5px;
+}
+.button1:hover{
+    cursor: pointer;
+
+}

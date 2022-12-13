@@ -1,0 +1,41 @@
+<div class="category">
+    <div class="nav">
+        <button class="button1 sub " (click)="onclickHide()" >add category</button>
+    </div>
+    
+<table>
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tr >
+        <td><a > category </a></td>
+        <td> <Button class="button1" >Edit</Button></td>
+        <td><Button  class="button1" >Delete</Button></td>
+    </tr>
+
+
+</table>
+
+<div class="categoryForm" *ngIf="showDiv">
+    <form >
+        <div class="field-wrap">
+            <input type="text" id="category" name="category" placeholder="enter category name">
+        </div>
+        <div class="field-wrap">
+            <button class="button1 sub" type="submit">Save</button>
+            <button class="button1 sub " (click)="onclickHide()" >cancel</button>
+
+        </div>  
+     
+        
+    </form>
+   
+   
+</div>
+</div>
+
